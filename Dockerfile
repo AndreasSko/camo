@@ -1,4 +1,4 @@
-FROM node:8.4
+FROM node:8.4-alpine
 
 RUN mkdir -p /opt/camo/
 WORKDIR /opt/camo/
